@@ -1,0 +1,7 @@
+        <mscope.things.activities.PointAt>
+          <hand><_munge attrib = "hand"/></hand>
+          <_munge class = "stormr.munged.RefMunger"/>
+          <startTime><_munge attrib = "startTime"/></startTime>
+          <duration><_munge attrib = "duration"/></duration>
+          <subject class="character" reference="../../../../../cast/character"/>
+        </mscope.things.activities.PointAt>

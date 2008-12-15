@@ -1,0 +1,16 @@
+        <move>
+          <isPlace><_munge attrib = "isPlace"/></isPlace>
+          <_munge tag = "mark" reference="markReference"/>
+          <locomotionParameters>
+            <gaitBlend>0.0</gaitBlend>
+            <speed><_munge attrib = "speed"/></speed>
+            <stride><_munge attrib = "stride"/></stride>
+          </locomotionParameters>
+          <gait><_munge attrib = "gait"/></gait>
+          <gaitBlend>0.0</gaitBlend>
+          <speed><_munge attrib = "speed"/></speed>
+          <stride><_munge attrib = "stride"/></stride>
+          <startTime><_munge attrib = "startTime"/></startTime>
+          <duration>0.0</duration>
+          <subject class="character" reference="../../../../../cast/character"/>
+        </move>

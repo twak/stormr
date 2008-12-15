@@ -1,0 +1,28 @@
+        <mscope.cuttingroom.titles.Credits>
+          <text><_munge attrib = "text"/></text>
+          <description><_munge attrib = "description"/></description>
+          <textProperties>
+            <textName>Arial</textName>
+            <textSize><_munge attrib = "textSize"/></textSize>
+            <foregroundColor>
+              <red><_munge attrib = "color.getRed"/></red>
+              <green><_munge attrib = "color.getGreen"/></green>
+              <blue><_munge attrib = "color.getBlue"/></blue>
+              <alpha>255</alpha>
+            </foregroundColor>
+            <alignment>CENTRE</alignment>
+            <bold>false</bold>
+            <italic>false</italic>
+          </textProperties>
+          <backgroundColor>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </backgroundColor>
+          <layout>SUBTITLE</layout>
+          <transition>IMMEDIATE</transition>
+          <interstitial>false</interstitial>
+          <startTime><_munge attrib = "startTime"/></startTime>
+          <duration><_munge attrib = "duration"/></duration>
+        </mscope.cuttingroom.titles.Credits>

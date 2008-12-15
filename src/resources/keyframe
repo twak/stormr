@@ -1,0 +1,47 @@
+        <keyframe>
+          <keyframe class="mscope.things.TargetShot">
+            <targetOffset>
+            <_munge attrib = "offset.x"/>
+            <_munge attrib = "offset.y"/>
+            <_munge attrib = "offset.z"/>
+            </targetOffset>
+            <distance>0.0</distance>
+            <pan><_munge attrib = "pan"/></pan>
+            <tilt><_munge attrib = "tilt"/></tilt>
+            <roll><_munge attrib = "roll"/></roll>
+            <bearing>0.0</bearing>
+            <elevation>0.0</elevation>
+            <keyFOV><_munge attrib = "fov"/></keyFOV>
+            <keyTransform>
+            <_munge attrib = "location.m00"/>
+            <_munge attrib = "location.m01"/>
+            <_munge attrib = "location.m02"/>
+            <_munge attrib = "location.m03"/>
+            <_munge attrib = "location.m10"/>
+            <_munge attrib = "location.m11"/>
+            <_munge attrib = "location.m12"/>
+            <_munge attrib = "location.m13"/>
+            <_munge attrib = "location.m20"/>
+            <_munge attrib = "location.m21"/>
+            <_munge attrib = "location.m22"/>
+            <_munge attrib = "location.m23"/>
+            <_munge attrib = "location.m30"/>
+            <_munge attrib = "location.m31"/>
+            <_munge attrib = "location.m32"/>
+            <_munge attrib = "location.m33"/>
+            </keyTransform>
+            <lineSide>1</lineSide>
+            <distanceToFocalPoint><_munge attrib = "focalDistance"/></distanceToFocalPoint>
+            <focalRange><_munge attrib = "focalRange"/></focalRange>
+          </keyframe>
+          <pathInfo>
+            <linear>true</linear>
+            <tension>0.0</tension>
+            <continuity>0.0</continuity>
+            <bias>0.0</bias>
+          </pathInfo>
+          <cutTo><_munge attrib = "cutTo"/></cutTo>
+          <startTime><_munge attrib = "startTime"/></startTime>
+          <duration><_munge attrib = "duration"/></duration>
+          <subject class="cameraman" reference="../../../cameras/cameraman"/>
+        </keyframe>

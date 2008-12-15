@@ -1,0 +1,60 @@
+<wall>
+            <left>
+              <pt><_munge attrib="start.x"/> <_munge attrib="start.y"/> 0.0</pt>
+              <walls>
+                <wall reference="../../.."/>
+              </walls>
+            </left>
+            <right>
+              <pt><_munge attrib="end.x"/> <_munge attrib="end.y"/> 0.0</pt>
+              <walls>
+                <wall reference="../../.."/>
+              </walls>
+            </right>
+            <front>
+              <material>
+                <name>Wall_Bricks01</name>
+                <ambientColor>
+                   <_munge attrib = "color.getRed"/>
+                   <_munge attrib = "color.getGreen"/>
+                   <_munge attrib = "color.getBlue"/>
+                   <_munge attrib = "color.getAlpha"/>
+                </ambientColor>
+                <diffuseColor reference="../ambientColor"/>
+                <emissiveColor>0.0 0.0 0.0 0.0</emissiveColor>
+                <specularColor>1.0 1.0 1.0 1.0</specularColor>
+                <shininess>15.0</shininess>
+                <maps>
+                  <entry>
+                    <string>specularMap</string>
+                    <string>Data/Materials/Wall/Wall_Paint_Efffect_01_Spec.dds</string>
+                  </entry>
+                  <entry>
+                    <string>normalMap</string>
+                    <string>Data/Materials/Wall/Wall_Paint_Efffect_01_Norm.dds</string>
+                  </entry>
+                  <entry>
+                    <string>diffuseMap</string>
+                    <string>Data/Materials/Wall/Wall_Paint_Efffect_01_Diff.dds</string>
+                  </entry>
+                </maps>
+                <flags>
+                  <string>TINTABLE</string>
+                </flags>
+                <parameters/>
+              </material>
+              <left reference="../../left"/>
+              <right reference="../../right"/>
+            </front>
+            <back>
+              <material reference="../../front/material"/>
+              <left reference="../../right"/>
+              <right reference="../../left"/>
+            </back>
+            <height><_munge attrib="height"/></height>
+            <thickness>0.1</thickness>
+            <name>Wall</name>
+            <importance>0.0</importance>
+            <properties/>
+            <children class="linked-list"/>
+          </wall>
