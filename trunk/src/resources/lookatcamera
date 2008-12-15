@@ -1,0 +1,6 @@
+        <mscope.things.activities.LookAtCamera>
+          <cameraMan reference="../../../cameras/cameraman"/>
+          <startTime><_munge attrib = "startTime"/></startTime>
+          <duration><_munge attrib = "duration"/></duration>
+          <subject class="character" reference="../../../../../cast/character"/>
+        </mscope.things.activities.LookAtCamera>

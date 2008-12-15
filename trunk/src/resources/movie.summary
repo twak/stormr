@@ -1,0 +1,21 @@
+<movieSummary>
+  <serialVersionID>7</serialVersionID>
+  <tagline></tagline>
+  <blurb></blurb>
+  <hasSetProblems>true</hasSetProblems>
+  <hasCharacterProblems>false</hasCharacterProblems>
+  <hasSceneProblems>false</hasSceneProblems>
+  <hasTutorial>false</hasTutorial>
+  <personnel>
+    <personnel>
+      <entry>
+        <string>Director</string>
+        <vector>
+          <mscope.things.Credits_-Contributor>
+            <role>Director</role>
+          </mscope.things.Credits_-Contributor>
+        </vector>
+      </entry>
+    </personnel>
+  </personnel>
+</movieSummary>

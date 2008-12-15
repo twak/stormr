@@ -1,0 +1,14 @@
+        <say>
+          <text><_munge attrib = "text"/></text>
+          <audioResource><_munge attrib = "audioResource"/></audioResource>
+          <startAudio>0.0</startAudio>
+          <stopAudio>0.966</stopAudio>
+          <lipsync>
+            <_munge class = "stormr.munged.ArticMunger"/>
+          </lipsync>
+          <gain>1.0</gain>
+          <drive>0.5</drive>
+          <startTime><_munge attrib = "startTime"/></startTime>
+          <duration><_munge attrib = "duration"/></duration>
+          <subject class="character" reference="../../../../../cast/character"/>
+        </say>

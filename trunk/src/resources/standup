@@ -1,0 +1,18 @@
+       <mscope.things.activities.StandUp>
+          <seat reference="../../../set/scenery/mscope.things.Seat"/>
+          <anim>chair/stand_up_from_low_chair</anim>
+          <name>Stand up</name>
+          <animTime>6.75</animTime>
+          <locomotionParameters>
+            <gaitBlend>0.0</gaitBlend>
+            <speed>0.21784411</speed>
+            <stride>1.0</stride>
+          </locomotionParameters>
+          <gait>Walk02</gait>
+          <gaitBlend>0.0</gaitBlend>
+          <speed>1.0</speed>
+          <stride>1.0</stride>
+          <startTime><_munge attrib= "startTime"/></startTime>
+          <duration>3.5333333015441895</duration>
+          <subject class="character" reference="../../../../../cast/character"/>
+        </mscope.things.activities.StandUp>

@@ -1,0 +1,6 @@
+            <mscope.cuttingroom.Cut>
+              <cutStart><_munge attrib = "cutStartTime"/></cutStart>
+              <startTime><_munge attrib = "startTime"/></startTime>
+              <duration><_munge attrib = "duration"/></duration>
+              <subject class="cameraman" reference="../../../../../../../scenes/scene/cameras/cameraman"/>
+            </mscope.cuttingroom.Cut>

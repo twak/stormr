@@ -1,0 +1,601 @@
+<?xml version="1.0"?>
+<movie>
+    <cast>
+    <character>
+      <notes/>
+      <biography></biography>
+      <template class="mscope.things.factory.BodyTemplate" model="Male01">
+        <bodyPart resolves-to="mscope.things.BodyPart$MorphInstance" template="Head Euro Old">
+          <material id="0" name="Heads/Euro/Old/Old_Euro_02 [0]"/>
+          <material id="1" name="Heads/Euro/Old/Mouth_01 [1]"/>
+          <material id="2" name="Heads/Euro/Old/Male_old_Eyes_Blue [2]"/>
+          <material id="3" name="Heads/Euro/Old/Male_Eyelashes [3]"/>
+          <material id="4" name="Heads/Euro/Old/Male_old_Eyes_Blue [4]"/>
+          <decal name="Goatie">
+            <diffuseColor>0.41960785 0.1764706 0.03137255 1.0</diffuseColor>
+            <shininess>1.0</shininess>
+          </decal>
+          <decal name="Cheeks">
+            <diffuseColor>0.41960785 0.1764706 0.03137255 1.0</diffuseColor>
+            <shininess>1.0</shininess>
+          </decal>
+          <decal name="Jaw">
+            <diffuseColor>0.41960785 0.1764706 0.03137255 1.0</diffuseColor>
+            <shininess>1.0</shininess>
+          </decal>
+          <decal name="Moustache">
+            <diffuseColor>0.41960785 0.1764706 0.03137255 1.0</diffuseColor>
+            <shininess>1.0</shininess>
+          </decal>
+          <decal name="Neck">
+            <diffuseColor>0.41960785 0.1764706 0.03137255 1.0</diffuseColor>
+            <shininess>1.0</shininess>
+          </decal>
+          <decal name="Sideburns">
+            <diffuseColor>0.41960785 0.1764706 0.03137255 1.0</diffuseColor>
+            <shininess>1.0</shininess>
+          </decal>
+          <morphTargets>
+            <entry>
+              <string>Heads/Euro/Old/Nose_Big</string>
+              <float>1.0</float>
+            </entry>
+          </morphTargets>
+        </bodyPart>
+        <bodyPart template="Hair_Bald">
+          <material id="1" name="Hair/Male_Bald_Hair/Bald_Hair_DarkBrown [1]"/>
+        </bodyPart>
+        <bodyPart template="Suit Closed">
+          <material id="0" name="Costumes/SuitClosed/SuitClosed_Top_03 [0]"/>
+          <material id="1" name="Costumes/SuitClosed/SuitClosed_Bottom_04 [1]"/>
+          <material id="2" name="Costumes/SuitClosed/Base_Mesh_Male_Body[2]"/>
+        </bodyPart>
+      </template>
+      <wardrobe/>
+      <props/>
+      <markerColor>
+        <red>204</red>
+        <green>0</green>
+        <blue>82</blue>
+        <alpha>255</alpha>
+      </markerColor>
+      <mood>
+        <intimacy>0.5</intimacy>
+        <dominance>0.5</dominance>
+        <sad>0.0</sad>
+        <happy>0.0</happy>
+        <anger>0.0</anger>
+        <disgust>0.0</disgust>
+        <surprise>0.0</surprise>
+        <fear>0.0</fear>
+        <melodrama>0.5</melodrama>
+        <expressiveness>0.5</expressiveness>
+        <params>
+          <entry>
+            <string>IDLE</string>
+            <float>1.0</float>
+          </entry>
+        </params>
+      </mood>
+      <name>twak</name>
+      <importance>10.0</importance>
+      <properties/>
+      <children class="linked-list"/>
+    </character>
+  </cast>
+  <sets/>
+  <scenes>
+    <scene>
+      <ID>1</ID>
+      <title>First scene</title>
+      <cast>
+        <character reference="../../../../cast/character"/>
+      </cast>
+      <cameras>
+        <cameraman>
+          <markerColor>
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </markerColor>
+          <name>&lt;&lt;MAIN&gt;&gt;</name>
+          <importance>0.0</importance>
+          <properties/>
+          <children class="linked-list"/>
+        </cameraman>
+      </cameras>
+      <cameraViewpoints/>
+      <marks>
+         <_munge class = "stormr.munged.MarkMunger"/>
+      </marks>
+      <set>
+        <description/>
+        <scenery>
+
+          <floor>
+            <width>50</width>
+            <depth>50</depth>
+            <gridsize>1.0</gridsize>
+            <surfaceMaps>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </int-array>
+            </surfaceMaps>
+            <materials>
+              <material>
+                <name>Floor_BasicGrid01</name>
+                <ambientColor>1.0 1.0 1.0 1.0</ambientColor>
+                <diffuseColor>0.7 0.7 0.7 1.0</diffuseColor>
+                <emissiveColor>0.0 0.0 0.0 0.0</emissiveColor>
+                <specularColor>0.3 0.3 0.3 1.0</specularColor>
+                <shininess>4.0</shininess>
+                <maps>
+                  <entry>
+                    <string>diffuseMap</string>
+                    <string>Data/Materials/Floor/Floor_BasicGrid01.jpg</string>
+                  </entry>
+                </maps>
+                <flags/>
+                <parameters/>
+              </material>
+              <material>
+                <name>Floor_Parquet</name>
+                <ambientColor>1.0 1.0 1.0 1.0</ambientColor>
+                <diffuseColor>1.0 1.0 1.0 1.0</diffuseColor>
+                <emissiveColor>0.0 0.0 0.0 0.0</emissiveColor>
+                <specularColor>1.0 1.0 1.0 1.0</specularColor>
+                <shininess>22.0</shininess>
+                <maps>
+                  <entry>
+                    <string>normalMap</string>
+                    <string>Data/Materials/Floor/Wood/Floor_Wood01_normal.jpg</string>
+                  </entry>
+                  <entry>
+                    <string>diffuseMap</string>
+                    <string>Data/Materials/Floor/Wood/Floor_Wood01.jpg</string>
+                  </entry>
+                </maps>
+                <flags>
+                  <string>TINTABLE</string>
+                </flags>
+                <parameters>
+                  <entry>
+                    <string>TILE</string>
+                    <string>1</string>
+                  </entry>
+                  <entry>
+                    <string>SOUNDSLIKE</string>
+                    <string>wood</string>
+                  </entry>
+                </parameters>
+              </material>
+              <material>
+                <name>Floor_Carpet_01 Tintable</name>
+                <ambientColor>0.3882353 0.05882353 0.047058824 1.0</ambientColor>
+                <diffuseColor reference="../ambientColor"/>
+                <emissiveColor>0.0 0.0 0.0 0.0</emissiveColor>
+                <specularColor>1.0 1.0 1.0 1.0</specularColor>
+                <shininess>15.0</shininess>
+                <maps>
+                  <entry>
+                    <string>specularMap</string>
+                    <string>Data/Materials/Floor/Carpet/Carpet_01_Spec.dds</string>
+                  </entry>
+                  <entry>
+                    <string>normalMap</string>
+                    <string>Data/Materials/Floor/Carpet/Carpet_01_Norm.dds</string>
+                  </entry>
+                  <entry>
+                    <string>diffuseMap</string>
+                    <string>Data/Materials/Floor/Carpet/Carpet_01_Diff.dds</string>
+                  </entry>
+                </maps>
+                <flags>
+                  <string>TINTABLE</string>
+                </flags>
+                <parameters>
+                  <entry>
+                    <string>TILE</string>
+                    <string>1</string>
+                  </entry>
+                  <entry>
+                    <string>SOUNDSLIKE</string>
+                    <string>carpet</string>
+                  </entry>
+                </parameters>
+              </material>
+            </materials>
+            <name>Floor</name>
+            <importance>0.0</importance>
+            <properties/>
+            <children class="linked-list"/>
+          </floor>
+          <ceiling>
+            <width>50</width>
+            <depth>50</depth>
+            <height>3.0</height>
+            <gridsize>1.0</gridsize>
+            <surfaceMaps>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+              <int-array>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </int-array>
+            </surfaceMaps>
+            <materials>
+              <null/>
+              <material>
+                <name>Basic_Ceiling_Textured Tintable</name>
+                <ambientColor>
+            <_munge attrib = "ceiling_red"/>
+            <_munge attrib = "ceiling_green"/>
+            <_munge attrib = "ceiling_blue"/>
+            <_munge attrib = "ceiling_alpha"/>
+                </ambientColor>
+                <diffuseColor reference="../ambientColor"/>
+                <emissiveColor>0.0 0.0 0.0 0.0</emissiveColor>
+                <specularColor>1.0 1.0 1.0 1.0</specularColor>
+                <shininess>11.0</shininess>
+                <maps>
+                  <entry>
+                    <string>specularMap</string>
+                    <string>Data/Materials/Ceiling/Ceiling_01_Spec.dds</string>
+                  </entry>
+                  <entry>
+                    <string>normalMap</string>
+                    <string>Data/Materials/Ceiling/Ceiling_01_Norm.dds</string>
+                  </entry>
+                  <entry>
+                    <string>diffuseMap</string>
+                    <string>Data/Materials/Ceiling/Ceiling_01_Diff.dds</string>
+                  </entry>
+                </maps>
+                <flags>
+                  <string>TINTABLE</string>
+                </flags>
+                <parameters/>
+              </material>
+            </materials>
+            <name>Ceiling</name>
+            <importance>0.0</importance>
+            <properties/>
+            <children class="linked-list"/>
+          </ceiling>
+          <_munge class = "stormr.munged.PropMunger"/>
+          <_munge class = "stormr.munged.WallMunger"/>
+          <mscope.things.Seat>
+            <occupation>
+              <character reference="../../../../../../../cast/character"/>
+            </occupation>
+            <template name="Dressing/Furniture/Chairs/Armchair_Antique_01/Chair_Antique_Armchair_Red"/>
+            <scale>1.0</scale>
+            <transform>0.7091929 -0.70501494 1.1471707E-6 19.264368 0.7050148 0.709193 -3.3723063E-7 1.221241 -5.758127E-7 1.0479338E-6 1.0 -2.9799594E-8 0.0 0.0 0.0 1.0</transform>
+            <name>Chair_Antique_Armchair_Red</name>
+            <importance>0.0</importance>
+            <properties/>
+            <children class="linked-list">
+              <Prop>
+                <template name="Dressing/Electronics/Computers/Laptop_01/Laptop_01_Open">
+                  <materials>
+                    <null/>
+                    <material>
+                      <shininess>30.0</shininess>
+                      <maps>
+                        <entry>
+                          <string>diffuseMap</string>
+                          <string>Images/user.jpg</string>
+                        </entry>
+                      </maps>
+                    </material>
+                    <null/>
+                  </materials>
+                </template>
+                <scale>1.0</scale>
+                <transform>0.79585755 0.6054839 6.122274E-6 18.93954 -0.6054841 0.7958577 4.958224E-7 0.97367597 -4.572246E-6 -4.101547E-6 0.99999964 0.54539704 0.0 0.0 0.0 1.0</transform>
+                <name>Laptop_01_Open</name>
+                <importance>0.0</importance>
+                <properties/>
+                <children class="linked-list"/>
+                <parent class="mscope.things.Seat" reference="../../.."/>
+              </Prop>
+            </children>
+          </mscope.things.Seat>
+          <Prop reference="../mscope.things.Seat/children/Prop"/>
+        </scenery>
+        <lightPosition>-5.0 -5.0 10.0</lightPosition>
+        <ambientLightColor>0.4 0.4 0.4</ambientLightColor>
+        <directionalLightColor>0.61960787 0.61960787 0.61960787</directionalLightColor>
+        <lightAzimuth>4.3545966</lightAzimuth>
+        <lightElevation>0.60039324</lightElevation>
+        <lightInterior>false</lightInterior>
+        <drawShadows>true</drawShadows>
+        <lensFlare>false</lensFlare>
+        <ambientDescriptor>
+          <sounds class="vector"/>
+        </ambientDescriptor>
+        <name>Set for 01 First scene</name>
+        <importance>0.0</importance>
+        <properties/>
+        <children class="linked-list"/>
+      </set>
+      <props/>
+      <schedule>
+        <mscope.things.activities.Sit>
+          <seat reference="../../../set/scenery/mscope.things.Seat"/>
+          <verb>Sit Down</verb>
+          <subjectAnim>chair/sit_in_low_chair</subjectAnim>
+          <holdPose>false</holdPose>
+          <animTime>2.2609466314315796</animTime>
+          <bone>Bone02</bone>
+          <locomotionParameters>
+            <gaitBlend>0.0</gaitBlend>
+            <speed>0.21784411</speed>
+            <stride>1.0</stride>
+          </locomotionParameters>
+          <gait>Walk02</gait>
+          <gaitBlend>0.0</gaitBlend>
+          <speed>1.0</speed>
+          <stride>1.0</stride>
+          <startTime>0.0</startTime>
+          <duration>5.694280028343201</duration>
+          <subject class="character" reference="../../../../../cast/character"/>
+        </mscope.things.activities.Sit>
+        <keyframe>
+          <keyframe class="mscope.things.TargetShot">
+            <targetOffset>18.304039 4.4795856 1.3</targetOffset>
+            <distance>0.0</distance>
+            <pan>-2.9813712</pan>
+            <tilt>-0.18849553</tilt>
+            <roll>-3.8251818E-7</roll>
+            <bearing>0.0</bearing>
+            <elevation>0.0</elevation>
+            <keyFOV>0.33955655</keyFOV>
+            <keyTransform>-0.987192 0.15671103 0.029894602 18.304039 -0.15953694 -0.96970606 -0.18498124 4.4795856 3.7574273E-7 -0.1873813 0.9822872 1.3 0.0 0.0 0.0 1.0</keyTransform>
+            <lineSide>1</lineSide>
+            <distanceToFocalPoint>3.0</distanceToFocalPoint>
+            <focalRange>1024.0</focalRange>
+          </keyframe>
+          <pathInfo>
+            <linear>true</linear>
+            <tension>0.0</tension>
+            <continuity>0.0</continuity>
+            <bias>0.0</bias>
+          </pathInfo>
+          <cutTo>false</cutTo>
+          <startTime>6.137500286102295</startTime>
+          <duration>0.0</duration>
+          <subject class="cameraman" reference="../../../cameras/cameraman"/>
+        </keyframe>
+        <keyframe>
+          <keyframe class="mscope.things.TargetShot">
+            <targetOffset>17.24311 7.1687374 1.3</targetOffset>
+            <distance>0.0</distance>
+            <pan>-2.9774656</pan>
+            <tilt>-0.040805437</tilt>
+            <roll>-5.259812E-7</roll>
+            <bearing>0.0</bearing>
+            <elevation>0.0</elevation>
+            <keyFOV>0.33955655</keyFOV>
+            <keyTransform>-0.98656136 0.16325513 0.006665916 17.24311 -0.16339116 -0.9857401 -0.040245812 7.1687374 5.255433E-7 -0.040794116 0.99916756 1.3 0.0 0.0 0.0 1.0</keyTransform>
+            <lineSide>1</lineSide>
+            <distanceToFocalPoint>3.0</distanceToFocalPoint>
+            <focalRange>1024.0</focalRange>
+          </keyframe>
+          <pathInfo>
+            <linear>true</linear>
+            <tension>0.0</tension>
+            <continuity>0.0</continuity>
+            <bias>0.0</bias>
+          </pathInfo>
+          <cutTo>false</cutTo>
+          <startTime>10.799999237060547</startTime>
+          <duration>0.0</duration>
+          <subject class="cameraman" reference="../../../cameras/cameraman"/>
+        </keyframe>
+          <_munge class = "stormr.munged.ScheduleMunger"/>
+      </schedule>
+      <ambientSoundLevel>0.3</ambientSoundLevel>
+      <dialogueSoundLevel>1.0</dialogueSoundLevel>
+      <foleySoundLevel>0.5</foleySoundLevel>
+      <keepCameraCuts>true</keepCameraCuts>
+      <duration>0.0</duration>
+    </scene>
+  </scenes>
+ <cutsSchedule>
+    <mscope.cuttingroom.EditsContainer>
+      <startTime>0.0</startTime>
+      <schedule>
+        <mscope.cuttingroom.CutContainer>
+          <startTime>0.0</startTime>
+          <schedule>
+          <_munge class = "stormr.munged.CutsMunger"/>
+          </schedule>
+          <description>&lt;&lt;MAIN&gt;&gt;</description>
+        </mscope.cuttingroom.CutContainer>
+        <mscope.audio.AdjustMixer>
+          <volumes>
+            <entry>
+              <string>Ambient</string>
+              <float>1.0</float>
+            </entry>
+            <entry>
+              <string>Foley</string>
+              <float>1.0</float>
+            </entry>
+            <entry>
+              <string>Dialogue</string>
+              <float>1.0</float>
+            </entry>
+          </volumes>
+          <startTime>0.0</startTime>
+          <duration>0.0</duration>
+        </mscope.audio.AdjustMixer>
+        <mscope.cuttingroom.CutContainer>
+          <startTime>0.0</startTime>
+          <schedule>
+          </schedule>
+          <description>&lt;&lt;MAIN&gt;&gt;</description>
+        </mscope.cuttingroom.CutContainer>
+      </schedule>
+      <description>Edits</description>
+    </mscope.cuttingroom.EditsContainer>
+    <mscope.audio.MixedAC>
+      <startTime>0.0</startTime>
+      <schedule>
+        <mscope.audio.AdjustMixer>
+          <volumes>
+            <entry>
+              <string>Ambient</string>
+              <float>1.0</float>
+            </entry>
+            <entry>
+              <string>Spot</string>
+              <float>1.0</float>
+            </entry>
+          </volumes>
+          <startTime>0.0</startTime>
+          <duration>0.0</duration>
+        </mscope.audio.AdjustMixer>
+      </schedule>
+      <description>Audio</description>
+    </mscope.audio.MixedAC>
+    <mscope.audio.MixedAC>
+      <startTime>0.0</startTime>
+      <schedule>
+        <_munge class = "stormr.munged.CreditsMunger"/>
+      </schedule>
+      <description>Titles</description>
+    </mscope.audio.MixedAC>
+  </cutsSchedule>
+  <editList/>
+  <tagline><_munge attrib = "tagline"/></tagline>
+  <blurb><_munge attrib = "blurb"/></blurb>
+  <title><_munge attrib = "title"/></title>
+  <isCelShaded>false</isCelShaded>
+  <allowImprov>false</allowImprov>
+  <useEnhancedWalks>true</useEnhancedWalks>
+  <useEnhancedCameras>true</useEnhancedCameras>
+  <environment>
+    <wind>
+      <strength>
+        <name>strength</name>
+        <meanValue>0.0</meanValue>
+        <sigma>0.0</sigma>
+        <minValue>0.0</minValue>
+        <maxValue>Infinity</maxValue>
+      </strength>
+      <heading>
+        <name>heading</name>
+        <meanValue>0.0</meanValue>
+        <sigma>0.0</sigma>
+        <minValue>-180.0</minValue>
+        <maxValue>180.0</maxValue>
+      </heading>
+      <lastUpdatedFrame>-1</lastUpdatedFrame>
+    </wind>
+    <gravity>
+      <strength>9.81</strength>
+      <lastUpdatedFrame>-1</lastUpdatedFrame>
+    </gravity>
+  </environment>
+  <isSavable>false</isSavable>
+  <scenarioProperties>
+    <entry>
+      <string>scenario</string>
+      <string>mscope.ui.scenario.GeneralScenario</string>
+    </entry>
+  </scenarioProperties>
+</movie>

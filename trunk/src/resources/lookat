@@ -1,0 +1,5 @@
+        <mscope.things.activities.LookAt>
+          <_munge class = "stormr.munged.RefMunger"/>
+          <startTime><_munge attrib = "startTime"/></startTime>
+          <duration><_munge attrib = "duration"/></duration>
+          <subject class="character" reference="../../../../../cast/character"/>        </mscope.things.activities.LookAt>
